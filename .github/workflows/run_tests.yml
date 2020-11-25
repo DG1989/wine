@@ -23,3 +23,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: run pylint
+      run: |
+        pylint
